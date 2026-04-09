@@ -112,4 +112,4 @@ In the Argo CD web UI:
 
 * **403 push error**: confirm “Read and write permissions” enabled and `GITHUB_TOKEN` env is present.
 * **ImagePullBackOff**: check that `deployment.yml` really contains the latest numeric tag and that the image exists in Docker Hub.
-* **Namespace errors**: ensure Destination namespace is `default` (no spaces).{THIS IS FROM VASU PROJECT}
+* **Namespace errors**: ensure Destination namespace is `default` (no spaces).
